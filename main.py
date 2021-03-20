@@ -28,6 +28,6 @@ daftar_bangun_ruang.append(s1)
 daftar_bangun_ruang.append(ba1)
 
 print('\nPolymorphism')
-for bangun_ruang in daftar_bangun_ruang
+for bangun_ruang in daftar_bangun_ruang:
     print(bangun_ruang.info())
 
