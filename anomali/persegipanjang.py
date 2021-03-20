@@ -1,4 +1,7 @@
-class PersegiPanjang():
+from anomali.bangun_ruang import BangunRuang
+
+
+class PersegiPanjang(BangunRuang):
     def __init__(self, p, l):
         self.p = p
         self.l = l
